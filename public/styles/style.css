@@ -1,0 +1,165 @@
+@font-face {
+    font-family: "Teddy-bear";
+    src: url("../fonts/teddy-bear.ttf");
+}
+@font-face {
+    font-family: "Cabana";
+    src: url("../fonts/cabana.ttf");
+}
+@font-face {
+    font-family: "Appetite";
+    src: url("../fonts/appetite.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*HEADER*/
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+#app {
+    padding: 2rem;
+}
+
+.header, .sidebar {
+    font-family: "Appetite";
+    text-transform: uppercase;
+}
+
+.header__wrapper {
+    width: 100%;
+    display: flex;
+    background: lightpink;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.logo {
+    width: 5rem;
+}
+.input__wrapper {
+    width: 30%;
+    border-bottom: 3px solid lightblue;
+}
+
+.header_input {
+    width: 100%;
+    padding: .4rem;
+    border: none;
+    background: none;
+    font-size: 1.2rem;
+}
+
+.header__nav {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    color: honeydew;
+}
+
+.nav_col {
+    text-shadow: deeppink 1px 1px 1px ;
+    margin: .5rem;
+    text-transform: uppercase;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    background: beige;
+}
+
+.sidebar {
+    padding: 1rem;
+    background: linear-gradient(lightblue, aquamarine, lightpink);
+    color: magenta;
+}
+
+.title_sidebar {
+    font-size: 1.5rem;
+    color: honeydew;
+    text-shadow: deeppink 1px 1px 1px;
+}
+
+.side_bar_row {
+    margin-top: 2rem;
+    text-shadow: cornflowerblue 1px 1px 2px;
+}
+
+/*MAIN*/
+
+.recipe__title {
+    text-align: center;
+    font-family: "Cabana";
+    font-size: 5rem;
+    text-shadow: black 1px 1px 2px;
+}
+.recipe__wrapper {
+    margin-top: 2rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.photo_bigus {
+    margin: 2rem;
+    width: 700px;
+}
+.ingredient-list {
+    font-size: 1.2rem;
+    font-family: Teddy-bear;
+    padding: 2rem;
+    border-radius: 5rem 1rem;
+    box-shadow: lightpink 10px 10px 5px;
+    background: lightblue;
+}
+.ingredient {
+    border-bottom: 2px solid lightpink;
+}
+
+.content__wrapper {
+    margin: 5rem;
+    font-family: Appetite;
+}
+
+.step_description {
+    width: 35%;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.step_img {
+    width: 300px;
+}
+
+.main_footer {
+    margin-top: 5rem;
+    padding: 5rem;
+    text-align: center;
+    border-top: 3px dotted black;
+}
+.video {
+    width: 90%;
+    height: 40rem;
+}
+/*FOOTER*/
+.footer {
+    padding: 2rem;
+    background: lightpink;
+    text-align: center;
+    font-size: 2rem;
+    font-family: Teddy-bear;
+}

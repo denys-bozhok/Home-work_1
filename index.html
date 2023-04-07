@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Recipe</title>
+        <link rel="shortcut icon"
+              href="./public/icons/fav_icon.png"
+              type="image/x-icon"
+        >
+
+        <link rel="stylesheet"
+              href="./public/styles/template.css"
+        >
+
+        <link rel="stylesheet"
+              href="./public/styles/style.css"
+        >
+    </head>
+
+    <body>
+        <header class="header">
+            <div class="header__wrapper">
+                <div class="logo__wrapper">
+                    <img src="./public/images/logo_of_app.png" class="logo" alt="Something was wrong">
+                </div>
+
+                <div class="input__wrapper">
+                    <input type="text" class="header_input">
+                </div>
+
+                <nav class="header__nav">
+                    <div class="nav_col">
+                        <a href="#">Контакты</a>
+                    </div>
+
+                    <div class="nav_col">
+                        <a href="#">О нас</a>
+                    </div>
+
+                    <div class="nav_col">
+                        <a href="#">Войти</a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <div class="container">
+            <aside class="sidebar">
+                <div class="title_sidebar">
+                    Категории
+                </div>
+
+                <nav class="nav">
+                    <div class="side_bar_row">
+                        <a href="#">Первые блюда</a>
+                    </div>
+
+                    <div class="side_bar_row">
+                        <a href="#">Вторые блюда</a>
+                    </div>
+
+                    <div class="side_bar_row">
+                        <a href="#">Десерты</a>
+                    </div>
+
+                    <div class="side_bar_row">
+                        <a href="#">Закуски</a>
+                    </div>
+                </nav>
+            </aside>
+
+            <main id="app">
+                <div class="recipe__title">
+                    Бигус. Гациональное польское блюдо.
+                </div>
+
+                <div class="recipe__wrapper">
+                    <div class="ingredient-list">
+                        <div class="ingredient">Капуста свежая</div>
+                        <div class="ingredient">Мясо</div>
+                        <div class="ingredient">Капуста квашена</div>
+                        <div class="ingredient">Копченое мясо</div>
+                        <div class="ingredient">Чернослив</div>
+                        <div class="ingredient">Томатная паста</div>
+                        <div class="ingredient">Лавровый лист</div>
+                        <div class="ingredient">Перец</div>
+                        <div class="ingredient">Модера или портвейн</div>
+                    </div>
+
+                    <div class="photo__wrapper">
+                        <img src="./public/images/bigus_main_photo.jpg" alt="Something was wrong"
+                             class="photo_bigus">
+                    </div>
+                </div>
+
+                <section class="content__wrapper">
+                    <p class="step_1">
+                        <span class="step_description">
+                            Обжарить мясо на сковородке. На готовности около 70% добавить копченое мясо на свой вкус и томатную пасту
+                        </span>
+
+                        <span class="step_photo">
+                            <img src="./public/images/meat.jpg"
+                                 alt="Ooops..."
+                                 class="step_img">
+                        </span>
+                    </p>
+
+                    <p class="step_2">
+                        <span class="step_description">
+                            Копусту тушить до изменения цвета. Добавить квашенную капусту. Тушить около 20 минут, пока не станет мягче
+                        </span>
+
+                        <span class="step_photo">
+                            <img src="./public/images/cabbage.jpg"
+                                 alt="Ooops..."
+                                 class="step_img">
+                        </span>
+                    </p>
+
+                    <p class="step_3">
+                        <span class="step_description">
+                            Добавить мясо в капусту, немного воды. На этом этапе добавляем лавровый лист и перец горошек.
+                        </span>
+
+                        <span class="step_photo">
+                            <img src="./public/images/meat_and_cabbage.jpg"
+                                 alt="Ooops..."
+                                 class="step_img">
+                        </span>
+                    </p>
+
+                    <p class="step_4">
+                        <span class="step_description">
+                            Добавляем чернослив. Предварительно тщательно проверти на наличие косточек. Оставляем тушиться минут 40.
+                        </span>
+
+                        <span class="step_photo">
+                            <img src="./public/images/prune.jpg"
+                                 alt="Ooops..."
+                                 class="step_img">
+                        </span>
+                    </p>
+
+                    <p class="step_5">
+                        <span class="step_description">
+                            Добавляем вино. Желательно модера. Если нет, то портвейн. Тушить минут 10. В конце добавить еще модеру, перемешать и снять с огня.
+                        </span>
+
+                        <span class="step_photo">
+                            <img src="./public/images/vine.jpg"
+                                 alt="Ooops..."
+                                 class="step_img">
+                        </span>
+                    </p>
+                </section>
+
+                <section class="main_footer">
+                    <iframe class="video"
+                            src="https://www.youtube.com/embed/dqIFpgVTr0A"
+                            title="Принципы приготовления бигоса"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen>
+                    </iframe>
+                </section>
+            </main>
+        </div>
+
+        
+        <div class="footer">
+            <div class="footer__wrapper">
+                Приятного аппетита!
+            </div>
+        </div>
+    </body>
+</html>
